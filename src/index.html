@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title> Index </title>
+
+  
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+
+	<link rel="stylesheet" href="css/animate.css">
+</head>
+
+<body>
+
+
+
+<form>
+
+
+
+	<div class="container">
+
+
+  
+
+	<section class="align-middle" >
+
+  <h1 class="animated heading flipInX text-white display-4 " style="text-align:center">Flames Calculator  <small class="text-center text-white">- Peteragnus</small></h1>
+
+  <!-- <h1 class="animated  flipInX text-white display-4" style="text-align:center">Frames</h1> -->
+	<br>
+	<!-- <form> -->
+	<div class="form-group">
+		<label class="text-white" for="name1" >Enter Your name : </label>
+		<input id="name1" class="  form-control" placeholder="Name of first person">
+	</div>
+
+	<div class="form-group">
+    <label for="name2"  class="text-white" >Enter Dream Partner Name :</label>
+    <input  class=" form-control" id="name2"  placeholder="Name of second person">
+    <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+
+
+  </div>
+  <br>
+
+  <div class="button-container" >
+  <button type="button" id="submit_button"  data-toggle="modal" data-target="#exampleModal" class="text-center btn btn-white">Submit</button>
+  <button type="reset"  class="btn btn-default">Reset Fields</button>
+
+  </div>
+  </form> 
+
+  </section>
+
+
+
+<!-- Button trigger modal -->
+
+
+  <!-- Modal -->
+  <div class="modal  fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Result</h5>
+          <button type="button" class="close clearFields"  data-dismiss="modal"  aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h3 style="font-family: 'Open Sans', sans-serif; " id="result"></h3>
+          <!-- <h3 style="font-family: 'Open Sans', sans-serif;color:#915992 ;font-size:24px " id="default_text">Names are required</small> -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary  clearFields2 btn-secondary"  data-dismiss="modal">Close</button>
+          
+          <!-- <button type="button" class="btn btn-white">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- </form> -->
+
+<small class="pad text-white">
+
+    Flames is a relationship calculating algorithm famous between the youngsters. At the time of graduation everyone might heard about this and many of them tried out this secretly. Some took this as very serious also. So what FLAMES stance for?
+    <br>
+    <br>
+
+
+    <span class="custom-text"><b>F</b> - Friendship</span>
+    <span class="custom-text"><b>L</b> - Love</span>
+    <span class="custom-text"><b>A</b> - Affection</span>
+    <span class="custom-text"><b>M</b> - Marriage</span>
+    <span class="custom-text"><b>E</b> - Enemy</span>
+    <span class="custom-text"><b>S</b> - Sister (Sibling) </span>
+
+</small>
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+
+body{
+	background:#915992 !important;
+}
+html,form,.container{
+	background:#915992;
+	
+}
+
+section
+{
+	
+	margin-top:100px;
+	display: inline-block;
+	margin-bottom:80px
+}
+
+.button-container{
+	text-align:center;
+}
+
+
+.vertical-center {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+  }
+
+ .custom-text{
+	 margin-right:20px;
+
+ }
+
+
+   .modal-content{
+	border-radius:0px !important;
+   }
+
+
+   @media screen and (max-width:480px){
+	   h1.heading{
+		   font-size:30px;
+		   text-align: left
+	   }
+
+	   section{
+		   padding:20px;
+		   margin-top:50px;
+		   margin-bottom:30px;
+		 
+	   }
+	   small{
+		   font-size:8px;
+	   }
+	   .pad{
+		padding-bottom: 100px;
+	   }
+   }
